@@ -43,8 +43,15 @@ function velait_features() {
 	
 }  
 
-add_action('after_setup_theme', 'velait_features')
+add_action('after_setup_theme', 'velait_features');
 
+function vela_post_types() {
+	register_post_type('event', array(
+		'public' => true
+	));
+}
+
+add_action('init', 'vela_post_types');
 
 
 ?>
