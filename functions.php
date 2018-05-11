@@ -38,17 +38,34 @@ add_action( 'wp_enqueue_scripts', 'velait_scripts' );
 
 
 function velait_features() {
-	register_nav_menu('headerMEnuLocation', 'Header Menu Location');
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
+	register_nav_menus( array(
+		'top'    => __( 'Top Menu', 'top' ),
+		'social' => __( 'Social Links Menu', 'vsocial' ),
+	) );
+	add_theme_support( 'post-formats', array(
+		'aside',
+		'image',
+		'video',
+		'quote',
+		'link',
+		'gallery',
+		'audio',
+	) );
 	
+
 }  
+
+
+
 
 add_action('after_setup_theme', 'velait_features');
 
 function vela_post_types() {
 	register_post_type('event', array(
 		'public' => true
+		
 	));
 }
 

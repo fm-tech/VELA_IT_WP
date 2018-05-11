@@ -25,9 +25,13 @@
                     <span>© Copyright Vela IT Solutions 2018</span> 
                     <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	 Molded by <a href="http://velait.net">Vela IT</a>
                 </div>
+
+                <div class="go-top-w">
                 <div class="go-top">
                     <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
                 </div>
+                <div>
+
             </div>
         </div> <!-- end footer-bottom -->
     </footer> <!-- end footer -->

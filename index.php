@@ -42,7 +42,7 @@ get_header(); ?>
                         <div class="post-img">
                             <?php the_post_thumbnail(); ?>
                         </div> 
-                    <div class="metabox">
+                    <div class="blog-metabox">
                         <p>posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y'); ?>
                           in <?php echo get_the_category_list(',') ?>
                         </p>
