@@ -101,7 +101,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-a:hover, a:focus, a:active {
+a:hover, a:focus, a:active, a:visited {
     color: #92140c;
 }
 
@@ -3800,6 +3800,23 @@ footer .row {
         padding-left: 0;
     }
 }
+/* Single */
+
+.bread_c a:visited {
+    color: rgb(214, 214, 214);
+}
+
+.bread_c a:hover {
+    color: #4a95cc;
+}
+
+.post-img img {
+
+}
+/*  blog html */
+
+
+
 
 
 /*# sourceMappingURL=main.css.map */

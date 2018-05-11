@@ -37,8 +37,9 @@ the_post(); ?>
             <div class="col-twelve tab-full">
 
                 <h2 class="display-2"><?php the_title(); ?></h2>
-                <div class="metabox">mex box will go here</div>
+                <div class="metabox">Posted by <?php the_author(); ?> on <?php the_date('Y-m-d'); ?></div>
                 <div class="content">
+                    <div class="post-img"><?php the_post_thumbnail(); ?></div>
                     <p class="lead"><?php the_content(); ?></p>
                 </div>
 

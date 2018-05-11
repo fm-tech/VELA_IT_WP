@@ -40,6 +40,7 @@ add_action( 'wp_enqueue_scripts', 'velait_scripts' );
 function velait_features() {
 	register_nav_menu('headerMEnuLocation', 'Header Menu Location');
 	add_theme_support('title-tag');
+	add_theme_support('post-thumbnails');
 	
 }  
 

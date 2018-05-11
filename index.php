@@ -38,7 +38,10 @@ get_header(); ?>
                     while(have_posts()) {
                         the_post(); ?>
                     <div class="post-item">
-                      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>  
+                      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> 
+                        <div class="post-img">
+                            <?php the_post_thumbnail(); ?>
+                        </div> 
                     <div class="metabox">
                         <p>posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y'); ?>
                           in <?php echo get_the_category_list(',') ?>
@@ -46,7 +49,7 @@ get_header(); ?>
                     </div>
                     <div class="generic-contnet">
                         <?php the_excerpt(); ?>
-                        <p><a href="<?php the_permalink(); ?>">Contine reading</a></p>
+                        <p><a class="btn btn--stroke full-width" href="<?php the_permalink(); ?>">Contine reading</a></p>
                     </div>
                     
                     </div>
