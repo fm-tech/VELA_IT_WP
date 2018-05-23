@@ -23,7 +23,7 @@
             <div class="col-twelve">
                 <div class="copyright">
                     <span>© Copyright Vela IT Solutions 2018</span> 
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	 Molded by <a href="http://velait.net">Vela IT</a>
+                     Made with love by <a href="http://franciscoit.com">F|M Tech</a>
                 </div>
 
                 <div class="go-top-w">

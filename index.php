@@ -43,7 +43,7 @@ get_header(); ?>
                             <?php the_post_thumbnail(); ?>
                         </div> 
                     <div class="blog-metabox">
-                        <p>posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y'); ?>
+                        <p>posted by <?php echo get_the_author_meta(('display_name')); ?> on <?php the_time('n.j.y'); ?>
                           in <?php echo get_the_category_list(',') ?>
                         </p>
                     </div>
