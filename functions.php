@@ -72,5 +72,3 @@ function vela_post_types() {
 add_action('init', 'vela_post_types');
 
 
-?>
-
