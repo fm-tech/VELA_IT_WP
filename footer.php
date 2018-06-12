@@ -9,12 +9,13 @@
             </div>
             <div class="col-six tab-full right footer-subscribe">
                 <h4>Get Notified</h4>
-                <p>If this humble website still has you on the dge </p>
+                <p> Subscribe to our newsletter to stay up with the latest offers and technological trends! </p>
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true" method="post" action="https://velait.net/?na=s" onsubmit="return newsletter_check(this)">
-                        <input type="checkbox" name="ny" required class="tnp-privacy"> By continuing, you accept the privacy policy</label>
                         <input class="tnp-email" type="email" name="ne" required placeholder="Email Address">
                         <input class="tnp-submit" type="submit" value="Subscribe">
+                        <input type="checkbox" name="ny" required class="tnp-privacy"> By continuing, you accept the privacy policy</label>
+
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
                 </div>
