@@ -14,7 +14,7 @@
                     <form id="mc-form" class="group" novalidate="true" method="post" action="https://velait.net/?na=s" onsubmit="return newsletter_check(this)">
                         <input class="tnp-email" type="email" name="ne" required placeholder="Email Address">
                         <input class="tnp-submit" type="submit" value="Subscribe">
-                        <input type="checkbox" name="ny" required class="tnp-privacy"> By continuing, you accept the privacy policy</label>
+                        <input type="checkbox" name="ny" required class="tnp-privacy"> By continuing, you accept the privacy policy
 
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
