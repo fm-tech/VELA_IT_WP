@@ -1,4 +1,3 @@
-
  <!-- footer
     ================================================== -->
     <footer>
@@ -9,13 +8,11 @@
             </div>
             <div class="col-six tab-full right footer-subscribe">
                 <h4>Get Notified</h4>
-                <p> Subscribe to our newsletter to stay up with the latest offers and technological trends! </p>
+                <p>Subscribe to our newsletter! </p>
                 <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true" method="post" action="https://velait.net/?na=s" onsubmit="return newsletter_check(this)">
-                        <input class="tnp-email" type="email" name="ne" required placeholder="Email Address">
-                        <input class="tnp-submit" type="submit" value="Subscribe">
-                        <input type="checkbox" name="ny" required class="tnp-privacy"> By continuing, you accept the privacy policy
-
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
                 </div>
@@ -24,8 +21,8 @@
         <div class="row footer-bottom">
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Vela IT Solutions 2018</span> 
-                     Made with love by <a href="http://franciscoit.com">F|M Tech</a>
+                    <span>Â© Copyright Vela IT Solutions 2018</span> 
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	 Molded by <a href="http://velait.net">Vela IT</a>
                 </div>
 
                 <div class="go-top-w">
