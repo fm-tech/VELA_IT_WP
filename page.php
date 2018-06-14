@@ -100,8 +100,8 @@ the_post();
                     <div class="cinfo">
                         <h5>Where to Find Us</h5>
                         <p>
-                            Office Coming Soon<br>
-                            Fort Worth, TX<br>
+                        320 Decker Dt, Suite 100<br>
+                        Irving, TX 75062<br>
                         </p>
                     </div>
                     <div class="cinfo">
@@ -113,7 +113,7 @@ the_post();
                     <div class="cinfo">
                         <h5>Call Us At</h5>
                         <p>
-                            Phone: (512) 648 3726<br>
+                            Phone: (833) 483-5248<br>
                         </p>
                     </div>
                     <ul class="contact-social">
